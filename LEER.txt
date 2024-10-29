@@ -1,0 +1,30 @@
+Usuarios para conectarse:
+
+Usuario:pepe
+contraseña:pepe
+
+Usuario: raul
+contraseña: 23456
+
+Para ver más usuarios revisar la Base de datos o mejor aún, registrase con uno nuevo
+
+
+*** NO OLVIDAR QUE EL SISTEMA UTILIZA PYTHON 3 EN ADELANTE Y PyQt5 y PyMySQL ***
+Para instalar PyMySQL usar: python -m pip install PyMySQL
+Para instalar PyQt5: pip3 install PyQt5
+
+*** La Base de Datos viene configurada En XAMPP: Uniciar servicio de Apache y MySQL***
+
+*** Si quiero importar las tablas .sql, lo puedo hacer primero creando una base de datos 
+nueva y luego "importando" el archivo .sql
+*** Para abrir la Base de datos en el navegador, escribir en él: http://localhost/phpmyadmin/ y darle Enter.
+
+
+
+*** Para correr el programa abrir la carpeta del mismo y en la parte de la dirección
+marcar todo y escribir: cmd y darle Enter, luego escribir:  python principal.py
+Podemos abrir el cmd haciendo Tecla Windows + R y ahi escribir cmd. Luego navegar usando el comando:
+cd y el nombre de la carpeta, para ir carpeta por carpeta hasta llegar a donde hayamos guardado la carpeta.
+
+
+

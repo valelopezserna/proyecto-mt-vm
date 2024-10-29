@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>-BIENVENIDO -</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelPreferencia">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>SELECCIONA A TU PREFERENCIA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelTipoNegocio">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>TIPO DE NEGOCIO:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelTipoAviso">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>60</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>TIPO DE AVISO:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxNegocio">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string>Alquiler</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>Alquiler</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Venta</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBoxAviso">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string>Apartamentos</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Apartamentos</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Casas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lotes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fincas</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="labelZonaNorte">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>120</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Zona Norte ----&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelZonaSur">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>120</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;---- Zona Sur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAranjuez">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>130</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Aranjuez</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCastilla">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>160</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Castilla</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBello">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>190</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bello</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSanJavier">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>220</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>San Javier</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnItagui">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>130</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Itagui</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSabaneta">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>160</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sabaneta</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEstrella">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>190</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Estrella</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEnvigado">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>220</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Envigado</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnServCerrar">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>520</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cerrar</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidgetServicios">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>581</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>AVISO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ZONA</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>BARRIO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>CONTACTO</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
